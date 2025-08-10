@@ -38,7 +38,7 @@
 					<img
 						src={fact.image}
 						alt={fact.title}
-						class="pointer-events-none absolute top-0 -z-[5] h-full w-full mask-l-to-80% object-cover"
+						class="pointer-events-none absolute top-0 -z-[5] h-full w-full mask-l-to-80% object-cover select-none"
 					/>
 				</div>
 			{/each}

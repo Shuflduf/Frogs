@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
-	import ZooBanner from '$lib/Components/ZooBanner.svelte';
-	import Frog from '$lib/Components/Frog.svelte';
+	import ZooBanner from '$lib/ZooBanner.svelte';
+	import Frog from '$lib/Frog.svelte';
 
 	let { children } = $props();
 </script>
@@ -11,7 +11,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<ZooBanner></ZooBanner>
+<ZooBanner />
 {@render children?.()}
 {#each Array(5)}
 	<Frog />
