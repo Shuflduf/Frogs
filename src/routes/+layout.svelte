@@ -2,6 +2,7 @@
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import ZooBanner from '$lib/Components/ZooBanner.svelte';
+	import Frog from '$lib/Components/Frog.svelte';
 
 	let { children } = $props();
 </script>
@@ -12,3 +13,6 @@
 
 <ZooBanner></ZooBanner>
 {@render children?.()}
+{#each Array(5)}
+	<Frog />
+{/each}
