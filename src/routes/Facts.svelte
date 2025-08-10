@@ -26,8 +26,10 @@
 			{/each}
 		{:then value}
 			{#each value as fact}
-				<div class="relative z-10 h-80 min-w-lg overflow-clip rounded-3xl bg-[#9CB380] p-4">
-					<h1 class="z-10 font-[Phantom_Sans] text-3xl">
+				<div
+					class="relative z-10 h-80 min-w-lg overflow-clip rounded-3xl bg-[#9CB380] p-4 text-[#361134]"
+				>
+					<h1 class="z-10 mb-2 w-1/2 text-center font-[Phantom_Sans] text-3xl">
 						{fact.title}
 					</h1>
 					<p class="z-10 w-1/2 text-lg leading-8">
@@ -36,7 +38,7 @@
 					<img
 						src={fact.image}
 						alt={fact.title}
-						class="pointer-events-none absolute top-0 -z-[5] h-full w-full mask-l-to-50% object-cover"
+						class="pointer-events-none absolute top-0 -z-[5] h-full w-full mask-l-to-80% object-cover"
 					/>
 				</div>
 			{/each}
