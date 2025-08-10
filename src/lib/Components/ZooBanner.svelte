@@ -23,7 +23,7 @@
 	}
 
 	#zoo_linkBanner {
-		background-color: rgb(29, 65, 29);
+		background-color: #9cb380;
 		padding: 10px;
 		text-align: center;
 		vertical-align: center;
@@ -32,14 +32,14 @@
 		right: 0;
 		top: 0;
 		height: 65px;
-		z-index: 1000;
+		z-index: 100;
 		font-size: 15px;
 		transition: box-shadow 0.3s ease-in-out;
 		font-family:
 			Phantom Sans,
 			sans-serif;
 		text-decoration: none;
-		color: white;
+		color: black;
 	}
 	#zoo_linkBanner:hover {
 		cursor: pointer;

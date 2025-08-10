@@ -6,8 +6,8 @@
 
 	let frog: HTMLElement;
 	let beingDragged: boolean = $state(false);
-	let velocity: Vec2 = new Vec2(0.1, 1.0);
-	let position: Vec2 = $state(new Vec2(0.0, 100.0));
+	let velocity: Vec2 = new Vec2(0.0, 0.0);
+	let position: Vec2 = $state(new Vec2(0.0, 0.0));
 	let mousePos: Vec2 = $state(new Vec2(0.0, 0.0));
 	let mouseVel: Vec2 = $state(new Vec2(0.0, 0.0));
 
@@ -77,12 +77,12 @@
 		mousePos = newPos;
 	}
 
-	function onMouseDown(e: MouseEvent) {
+	function onMouseDown(_: MouseEvent) {
 		console.log('AAA');
 		beingDragged = true;
 	}
 
-	function onMouseUp(e: MouseEvent) {
+	function onMouseUp(_: MouseEvent) {
 		if (beingDragged) {
 			velocity = mouseVel;
 		}
@@ -95,7 +95,7 @@
 	onmouseup={onMouseUp}
 	role="button"
 	tabindex="-1"
-	class="fixed select-none"
+	class="fixed z-[200] select-none"
 	bind:this={frog}
 	style="display: none;"
 >
