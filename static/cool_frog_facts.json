@@ -2,33 +2,34 @@
   {
     "title": "Habitat",
     "description": "Frogs are found on every continent except Antarctica. They thrive in a wide variety of habitats, including rainforests, swamps, ponds, lakes, and even deserts. Most frogs need a moist environment to survive.",
+    "image": "facts/habitat.png"  
   },
   {
     "title": "Diversity",
-    "description": "There are over 7,000 known species of frogs, making them one of the most diverse groups of vertebrates. They come in many shapes, sizes, and colors.",
+    "description": "There are over 7,000 known species of frogs, making them one of the most diverse groups of vertebrates. They come in many shapes, sizes, and colors."
   },
   {
     "title": "Diet",
-    "description": "Frogs are carnivorous and primarily eat insects, spiders, and other small invertebrates. Larger species may eat small mammals, birds, or even other frogs.",
+    "description": "Frogs are carnivorous and primarily eat insects, spiders, and other small invertebrates. Larger species may eat small mammals, birds, or even other frogs."
   },
   {
     "title": "Life Cycle",
-    "description": "Frogs undergo metamorphosis: they start as eggs, hatch into aquatic tadpoles, and then transform into adult frogs with lungs and legs.",
+    "description": "Frogs undergo metamorphosis: they start as eggs, hatch into aquatic tadpoles, and then transform into adult frogs with lungs and legs."
   },
   {
     "title": "Adaptations",
-    "description": "Frogs have specialized adaptations such as webbed feet for swimming, sticky tongues for catching prey, and skin that can absorb water and oxygen.",
+    "description": "Frogs have specialized adaptations such as webbed feet for swimming, sticky tongues for catching prey, and skin that can absorb water and oxygen."
   },
   {
     "title": "Camouflage",
-    "description": "Many frog species use camouflage to blend into their surroundings, helping them avoid predators and sneak up on prey.",
+    "description": "Many frog species use camouflage to blend into their surroundings, helping them avoid predators and sneak up on prey."
   },
   {
     "title": "Conservation",
-    "description": "Frog populations are declining worldwide due to habitat loss, pollution, disease, and climate change. Conservation efforts are crucial to protect these amazing amphibians.",
+    "description": "Frog populations are declining worldwide due to habitat loss, pollution, disease, and climate change. Conservation efforts are crucial to protect these amazing amphibians."
   },
   {
     "title": "Communication",
-    "description": "Frogs communicate using a variety of calls and sounds, especially during mating season. Each species has its own unique call.",
+    "description": "Frogs communicate using a variety of calls and sounds, especially during mating season. Each species has its own unique call."
   }
 ]
