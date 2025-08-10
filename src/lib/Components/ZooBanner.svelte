@@ -39,7 +39,7 @@
 			Phantom Sans,
 			sans-serif;
 		text-decoration: none;
-		color: black;
+		color: #a44a3f;
 	}
 	#zoo_linkBanner:hover {
 		cursor: pointer;
