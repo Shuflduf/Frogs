@@ -8,9 +8,29 @@ export class Vec2 {
   }
 
   add(other: Vec2) {
+    this.x += other.x
+    this.y += other.y
+  }
+
+  plus(other: Vec2): Vec2 {
     let newVec = new Vec2(this.x, this.y)
     newVec.x += other.x;
     newVec.y += other.y;
+    return newVec
+  }
+
+  minus(other: Vec2): Vec2 {
+    let newVec = new Vec2(this.x, this.y)
+    newVec.x -= other.x;
+    newVec.y -= other.y;
+    return newVec
+  }
+
+
+  multiply(other: Vec2): Vec2 {
+    let newVec = new Vec2(this.x, this.y)
+    newVec.x *= other.x;
+    newVec.y *= other.y;
     return newVec
   }
 }
